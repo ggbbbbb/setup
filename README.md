@@ -17,7 +17,17 @@ https://dl.google.com/dl/cloudsdk/channels/rapid/downloads/google-cloud-sdk-280.
 
 gcloud init
 
+gcloud init --console-only
+
+#防止用web验证
+
 gcloud config list
+
+# 看现在配置
+
+gcloud config configurations list
+
+
 
 222.其它工具
 #大数据查询#
